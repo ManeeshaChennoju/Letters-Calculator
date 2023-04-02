@@ -1,0 +1,55 @@
+.bg_container {
+  background-image: linear-gradient(#1d976c, #93f9b9, #219a6f);
+  height: 100vh;
+  padding: 30px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculation_cont {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.label {
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: 'Roboto';
+}
+
+.text_input {
+  outline: thin;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 800;
+}
+
+.button {
+  background-color: white;
+  color: rgba(11, 161, 18, 0.836);
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'Roboto';
+  border: 0px;
+  padding: 10px;
+  border-radius: 6px;
+  width: 150px;
+  text-align: center;
+}
+
+.image {
+  width: 500px;
+  height: 350px;
+}
